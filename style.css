@@ -19,7 +19,7 @@ h1{
 h2{
     font-family: freckles;
     font-size: 5vw;
-    color:rgb(164, 237, 255);
+    color:rgb(255, 255, 255);
     padding: 0px;
     margin:0px;
 }
@@ -65,9 +65,11 @@ a{
     
     margin: 2vw auto;
     width: 70vw;
-    background-color: rgb(8, 64, 78);
-    opacity: 80%;
+    background-color: rgb(8, 64, 78, 0.8);
+   
     border: 10px solid white;
+    border-radius: 50px;
+    overflow: hidden;
     padding: 2vw;
     
 
@@ -80,6 +82,13 @@ a{
 
 .buttons{
     width: 10vw;
+}
+
+.imgZW{
+    display:flex;
+    margin:auto;
+    width:30vw;
+
 }
 
 
