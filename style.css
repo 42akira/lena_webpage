@@ -1,5 +1,5 @@
 body{
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
     margin:2vw;
 }
 
@@ -7,45 +7,93 @@ body{
 
 
 
+/*--------------------------*/
+
+h1{
+    font-family: freckles;
+    font-size: 10vw;
+    color:rgb(8, 64, 78);   
+}
+
+
+h2{
+    font-family: freckles;
+    font-size: 5vw;
+    color:rgb(164, 237, 255);
+    padding: 0px;
+    margin:0px;
+}
 
 
 p{
-    color:rgb(116, 58, 131);
+    color:rgb(255, 255, 255);
     font-size: 2vw;
-    font-family: 'Times New Roman', Times, serif;
-   
+    font-family:isev;
 
 }
 
-h1{
-    font-family: myfont;
-    font-size: 10vw;
-    color:rgb(8, 64, 78);
-}
 
-#rafa{
-    width: 33vw;
-    opacity: 70%;
-    padding: 3vw;
-    border: 50px solid rgb(37, 10, 95);
 
-}
-
-#container{
-    display: flex;
-    justify-content: center;
-
-}
-
-@font-face {
-    font-family: myfont;
-    src: url(./fonts/FreckleFace-Regular.ttf);
-}
 
 a{
     font-size: 10vw;
 }
 
+
+/*---------ID---------*/
+
+
+
+
+
+#rafa{
+    width: 33vw;
+    padding: 1vw;
+    
+}
+
+
+
+
+
+
+/*-------------CLASS----------------------*/
+
+.block{
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 2vw auto;
+    width: 70vw;
+    background-color: rgb(8, 64, 78);
+    opacity: 80%;
+    border: 10px solid white;
+    padding: 2vw;
+    
+
+}
+
+.textblock{
+    display: flex;
+    flex-direction: column;
+}
+
 .buttons{
     width: 10vw;
+}
+
+
+
+
+/*--------------FONT---------------------------*/
+
+
+@font-face {
+    font-family: freckles;
+    src: url(./fonts/FreckleFace-Regular.ttf);
+}
+
+@font-face {
+    font-family: isev;
+    src: url(./fonts/IosevkaCharon-Bold.ttf);
 }
