@@ -47,8 +47,9 @@ a{
 
 
 #rafa{
-    width: 33vw;
-    padding: 1vw;
+    width: 50vw;
+    transform: translate(30%);
+    
     
 }
 
@@ -70,8 +71,8 @@ a{
     border: 10px solid white;
     border-radius: 50px;
     overflow: hidden;
-    padding: 2vw;
-    
+    padding: 5vw;
+    z-index: 2;
 
 }
 
@@ -89,6 +90,11 @@ a{
     margin:auto;
     width:30vw;
 
+}
+
+.imgBACK{
+    position: absolute;
+    z-index: 1;
 }
 
 
