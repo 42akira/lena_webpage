@@ -1,14 +1,51 @@
+body{
+    background-color: bisque;
+    margin:2vw;
+}
+
+
+
+
+
+
+
 p{
     color:rgb(116, 58, 131);
     font-size: 2vw;
     font-family: 'Times New Roman', Times, serif;
-    background-color: aquamarine;
+   
 
+}
+
+h1{
+    font-family: myfont;
+    font-size: 10vw;
+    color:rgb(8, 64, 78);
 }
 
 #rafa{
     width: 33vw;
-    opacity: 50%;
-    border: 7px solid black;
+    opacity: 70%;
+    padding: 3vw;
+    border: 50px solid rgb(37, 10, 95);
 
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(./fonts/FreckleFace-Regular.ttf);
+}
+
+a{
+    font-size: 10vw;
+}
+
+.buttons{
+    width: 10vw;
 }
