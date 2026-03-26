@@ -1,6 +1,9 @@
 body{
     background-color: rgb(255, 255, 255);
     margin:2vw;
+    cursor:url('./images/rafa.png'), auto;
+
+    
 }
 
 
@@ -93,10 +96,21 @@ a{
 }
 
 .imgBACK{
+    width: 40vw;
     position: absolute;
     z-index: 1;
+
+    /*transition: width 1s;*/
 }
 
+/*.imgBACK:hover{
+   
+    background-color: aquamarine;
+    width: 20vw;
+    
+
+}
+*/
 
 
 
@@ -111,4 +125,13 @@ a{
 @font-face {
     font-family: isev;
     src: url(./fonts/IosevkaCharon-Bold.ttf);
+}
+
+
+@media (orientation:portrait) {
+
+    .imgBACK{
+        width: 30vw;
+    }
+    
 }
