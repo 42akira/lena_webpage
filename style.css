@@ -71,10 +71,12 @@ a{
     width: 70vw;
     background-color: rgb(8, 64, 78, 0.8);
    
-    border: 10px solid white;
+   
     border-radius: 50px;
     overflow: hidden;
     padding: 5vw;
+
+    position: relative;
     z-index: 2;
 
 }
@@ -96,9 +98,12 @@ a{
 }
 
 .imgBACK{
+    display: flex;
+    justify-content:right; 
     width: 40vw;
     position: absolute;
     z-index: 1;
+    transform: translate(0, -200px);
 
     /*transition: width 1s;*/
 }
