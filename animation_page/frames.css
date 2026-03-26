@@ -10,6 +10,8 @@ body{
     display: flex;
     justify-content: center;
     overflow: hidden;
+    position:relative;
+    z-index: 1;
 
 
 }
@@ -18,4 +20,23 @@ body{
 
     height:100vh;
 
+}
+
+
+
+#linkBack{
+    font-size:5vw;
+    size: 20vw;
+    display: flex;
+    justify-content: right;
+    font-family: isev;
+    position:relative;
+    z-index: 2;
+
+}
+
+
+@font-face {
+    font-family: isev;
+    src: url(../fonts/IosevkaCharon-Bold.ttf);
 }

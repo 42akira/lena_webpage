@@ -73,6 +73,15 @@ a{
 }
 
 
+#OO{
+    margin:0; 
+    width:30vw;
+    transition: transform 0.3s ease;
+}
+
+#OO:hover{
+    transform: scale(1.1);
+}
 
 /*-------------CLASS----------------------*/
 
