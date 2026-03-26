@@ -57,7 +57,20 @@ a{
 }
 
 
+#right_img{
+    display: flex;
+    justify-content: flex-end;
+    transform: translate(0,0);
+}
 
+#chess img{
+    width:30vw;
+    transition: transform 0.3s ease;
+}
+
+#chess:hover img{
+    transform: scale(1.1);
+}
 
 
 
@@ -98,12 +111,10 @@ a{
 }
 
 .imgBACK{
-    display: flex;
-    justify-content:right; 
-    width: 40vw;
+    margin:auto; 
     position: absolute;
     z-index: 1;
-    transform: translate(0, -200px);
+    
 
     /*transition: width 1s;*/
 }
