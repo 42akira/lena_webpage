@@ -52,17 +52,18 @@ a{
 #rafa{
     
     width: 50vw;
-    transform: translate(30%);
+    /*transform: translate(30%);*/
+    margin-right: -15vw;
     
     
     
 }
 
 
-#right_img{
+#right_img{                                                 /*Link2*/
     display: flex;
     justify-content: flex-end;
-    transform: translate(0,0);
+    
 }
 
 #chess img{
@@ -89,8 +90,7 @@ a{
 
 .block{
     display: flex;
-    
-    
+    justify-content:space-between ;
     
     margin: 0 auto;
     margin-bottom: 10vw;
@@ -101,7 +101,7 @@ a{
     border-radius: 50px;
     overflow: hidden;
     padding: 5vw;
-    gap: 1vw;
+
 
     position: relative;
     z-index: 2;
@@ -109,17 +109,12 @@ a{
 }
 
 .textblock{
-
     display: flex;
     flex-direction: column;
-    margin:0;
-    padding:0;
+   
 }
 
-.textblock p,h2{
-    margin: 0;
-    padding: 0;
-}
+
 
 
 
