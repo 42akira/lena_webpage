@@ -50,8 +50,10 @@ a{
 
 
 #rafa{
+    
     width: 50vw;
     transform: translate(30%);
+    
     
     
 }
@@ -87,9 +89,11 @@ a{
 
 .block{
     display: flex;
-    justify-content: space-between;
     
-    margin: 2vw auto;
+    
+    
+    margin: 0 auto;
+    margin-bottom: 10vw;
     width: 70vw;
     background-color: rgb(8, 64, 78, 0.8);
    
@@ -97,6 +101,7 @@ a{
     border-radius: 50px;
     overflow: hidden;
     padding: 5vw;
+    gap: 1vw;
 
     position: relative;
     z-index: 2;
@@ -104,9 +109,19 @@ a{
 }
 
 .textblock{
+
     display: flex;
     flex-direction: column;
+    margin:0;
+    padding:0;
 }
+
+.textblock p,h2{
+    margin: 0;
+    padding: 0;
+}
+
+
 
 .buttons{
     width: 10vw;
