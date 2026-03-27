@@ -46,7 +46,9 @@ a{
 /*---------ID---------*/
 
 
-
+a #insta, a svg{
+    display: block;
+}
 
 
 #rafa{
