@@ -33,12 +33,32 @@ body{
     font-size:5vw;
     size: 20vw;
     font-family: isev;
+    color:rgb(8, 64, 78);
     position:absolute;
     z-index: 2;
     margin: 0 ;
     padding: 0 1vw;
 
 }
+
+#linkBack:visited{
+    color:rgb(8, 64, 78);
+
+}
+
+#linkBack:hover{
+    color:rgb(161, 236, 255);
+}
+
+#linkBack:active{
+    color: rgb(160, 0, 115);
+}
+
+#linkBack:visited{
+    color:rgb(8, 64, 78);
+
+}
+
 
 
 @font-face {
